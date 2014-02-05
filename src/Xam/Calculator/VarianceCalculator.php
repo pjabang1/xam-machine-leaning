@@ -43,7 +43,7 @@ class VarianceCalculator implements Calculator {
      * @param \Xam\Calculator\Xam\Calculator\Calculator $meanCalculator
      * @return \Xam\Calculator\MeanCalculator
      */
-    public function setMeanCalculator(Xam\Calculator\Calculator $meanCalculator) {
+    public function setMeanCalculator(Calculator $meanCalculator) {
         $this->meanCalculator = $meanCalculator;
         return $this;
     }

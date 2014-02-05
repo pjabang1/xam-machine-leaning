@@ -9,7 +9,7 @@ class EuclideanDistanceCalculator implements Calculator {
 
     /**
      * 
-     * @param type $array
+     * @param array $array
      * @return double
      */
     function calculate($array) {
@@ -17,9 +17,9 @@ class EuclideanDistanceCalculator implements Calculator {
         $a = $array[0];
         $b = $array[1];
         
-        if (count($a) != count($b))
+        if (count($a) != count($b)) {
             return false;
-
+        }
         $distance = 0;
         for ($i = 0; $i < count($a); $i++) {
             $distance += pow($a[$i] - $b[$i], 2);
