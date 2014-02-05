@@ -1,0 +1,30 @@
+{
+    "name": "pjabang1/xam-machine-leaning",
+    "description": "A PHP Machine Learning Library",
+    "keywords": ["Machine Learning", "Php"],
+    "homepage": "",
+    "type": "machine-learning",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pa Essa Jabang",
+            "email": "pjabang@gmail.com",
+            "homepage": "http://pjabang.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Xam\\Cypher": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
