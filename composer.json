@@ -1,6 +1,6 @@
 {
     "name": "pjabang1/xam-machine-leaning",
-    "description": "A PHP Machine Learning Library",
+    "description": "A PHP Machine Learning Library, Euclidean Distance, Mean, Quartile, Standard Deviation, Variation calculator. Anomaly detection, Clustering algorithms",
     "keywords": ["Machine Learning", "Php", "Euclidean Distance"],
     "homepage": "",
     "type": "machine-learning",
