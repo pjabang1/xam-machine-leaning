@@ -1,7 +1,7 @@
 {
     "name": "pjabang1/xam-machine-leaning",
     "description": "A PHP Machine Learning Library",
-    "keywords": ["Machine Learning", "Php"],
+    "keywords": ["Machine Learning", "Php", "Euclidean Distance"],
     "homepage": "",
     "type": "machine-learning",
     "license": "MIT",
