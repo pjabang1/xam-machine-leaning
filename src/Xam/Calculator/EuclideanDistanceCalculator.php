@@ -25,6 +25,7 @@ class EuclideanDistanceCalculator implements Calculator {
             $distance += pow($a[$i] - $b[$i], 2);
         }
 
+        // return 1/(1+$distance);
         return sqrt($distance);
     }
 
